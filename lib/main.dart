@@ -8,8 +8,9 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
+  // added comment
   @override
   Widget build(BuildContext context) {
-    return (Homepage());
+    return (const Homepage());
   }
 }
